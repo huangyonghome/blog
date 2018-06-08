@@ -1,13 +1,13 @@
 # Welcome to jesse's blog!
 
-[![Build Status](https://travis-ci.org/lyonyang/blogs.svg?branch=master)](https://travis-ci.org/lyonyang/blogs)
+[![Build Status](https://travis-ci.org/huangyonghome/blog.svg?branch=master)](https://travis-ci.org/huangyonghome/blog)
 [![Python Versions](https://img.shields.io/badge/python-2.x%2C%203.x-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/lyonyang/blogs/blob/master/LICENSE)
-[![Downloads](https://img.shields.io/badge/downloads-4.02MB-blue.svg)](https://codeload.github.com/lyonyang/blogs/zip/master)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/huangyonghome/blog/blob/master/LICENSE)
+[![Downloads](https://img.shields.io/badge/downloads-4.02MB-blue.svg)](https://codeload.github.com/huangyonghome/blog/zip/master)
 
 
 [![QQ](http://oux34p43l.bkt.clouddn.com/email.png?imageMogr2/auto-orient/thumbnail/x30/blur/1x0/quality/75|imageslim)](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=WTUgNjd3IDg3PhkoKHc6NjQ)
-[![GitHub](http://oux34p43l.bkt.clouddn.com/GitHub.png?imageMogr2/auto-orient/thumbnail/x30/blur/1x0/quality/75|imageslim)](https://github.com/lyonyang)
+[![GitHub](http://oux34p43l.bkt.clouddn.com/GitHub.png?imageMogr2/auto-orient/thumbnail/x30/blur/1x0/quality/75|imageslim)](https://github.com/huangyonghome)
 [![Email](http://oux34p43l.bkt.clouddn.com/QQ.png?imageMogr2/auto-orient/thumbnail/x30/blur/1x0/quality/75|imageslim)](http://wpa.qq.com/msgrd?v=3&uin=547903993&site=qq&menu=yes)
 
 
@@ -57,7 +57,7 @@
 使用 `git bash` 命令行 : 
 
 ```shell
-$ git clone --depth=1 https://github.com/huangyonghome/blogs.git
+$ git clone --depth=1 https://github.com/huangyonghome/blog.git
 
 $ bash summary_create.sh
 
