@@ -40,9 +40,9 @@
 
 **网页浏览**
 
-[`GitHub Pages方式展示(强烈推荐)`](https://lyonyang.github.io/blogs/)
+[`GitHub Pages方式展示(强烈推荐)`](https://huangyonghome.github.io/blog/)
 
-[`GitBook方式展示(不推荐)`](https://lyonyang.gitbooks.io/blog/)
+[`GitBook方式展示(不推荐)`](https://huangyonghome.gitbooks.io/blog/)
 
 **本地浏览**
 
@@ -57,7 +57,7 @@
 使用 `git bash` 命令行 : 
 
 ```shell
-$ git clone --depth=1 https://github.com/lyonyang/Blogs.git
+$ git clone --depth=1 https://github.com/huangyonghome/blogs.git
 
 $ bash summary_create.sh
 
