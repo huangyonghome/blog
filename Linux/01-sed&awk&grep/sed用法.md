@@ -89,13 +89,13 @@ s: 替换,可以直接进行替换的工作,通常这个s的动作可以搭配�
     2	bin:x:1:1:bin:/bin:/sbin/nologin
 ```
 * ##### 在第二行后面新增一行
-
+```
         [root@localhost ~]$nl /tmp/passwd | sed '2a this is a new line'
          1	root:x:0:0:root:/root:/bin/bash
          2	bin:x:1:1:bin:/bin:/sbin/nologin
        this is a new line
          3	daemon:x:2:2:daemon:/sbin:/sbin/nologin  
-         
+ ```        
 * ##### 在第二行前新增,并且新增2行  
 ``` 
 [root@localhost ~]$nl /tmp/passwd | sed '2i this is a line before 2 \
@@ -250,7 +250,8 @@ id:3:initdefault:  do you know id?
       #and there is a string # follows the space
 ```
 
-* #####  删除文件中开头的#号
+* #####  删除文件中开头的#号  
+
 ```
 [root@localhost ~]$sed 's/^#//g' /tmp/test.txt
 hello world
@@ -262,9 +263,12 @@ id:3:initdefault:  do you know id?
 i love you ,do you know
 i love you very much
 ```
+
 * #####  练习5.删除开头的#号及后面的空白字符.也就是删除9,10两行开头的#和空格
-解释:这里用两个空格字符,是表示#空格然后再*重复前面的空格0次或者多次.  
+
+> 解释:这里用两个空格字符,是表示#空格然后再*重复前面的空格0次或者多次.  
 如果是sed 's/^#[[:space:]]*//' sed.txt 则表示空格字符可以是0次,也可以是无穷次,会把上面两行#i love you一起删除
+
 
 ```
 [root@localhost ~]$sed 's/^#[[:space:]][[:space:]]*//g' /tmp/test.txt
@@ -281,6 +285,7 @@ there are some spaces follow #
       #there are some spaces in the front of this line
       #and there is a string # follows the space
 ```
+
 或者可以用扩展正则
 
 ```
