@@ -308,6 +308,7 @@ there are some spaces follow #
 
 * #####  练习6.删除空白字符后面跟#字符,也就是最后两行
 和刚刚相反即可
+
 ```
 [root@localhost ~]$sed -r 's/^[[:space:]]+#//g' /tmp/test.txt
 hello world
@@ -329,6 +330,7 @@ and there is a string # follows the space
 ##### sed在替换的时候支持位置参数.比如看下面2个例子:
 
 #####  1.将下列所有以_all结尾的单词前面加个>破折号.
+
 ```
 cat test
 fsdafdsa_all
@@ -337,6 +339,7 @@ haha_all
 afsdasdf
 2232333333333
 ```
+
 ```
 [root@localhost tmp]$sed -r 's@(.*)_all$@\1>_all@g' pos.txt
 cat test
@@ -356,6 +359,7 @@ afsdasdf
 所以前面.*匹配到的fsdafdsa,weewwe,haha会被放置在>破折号后面,_all之前.
 
 ##### 2.将一个文件中的taomee、******、peoplenet中的*内容进行替换成network（*的内容不同）
+
 ```
 [root@localhost tmp]$echo "taomee,stage,peonetwork" > 1.txt
 [root@localhost tmp]$cat 1.txt
