@@ -90,11 +90,11 @@ s: 替换,可以直接进行替换的工作,通常这个s的动作可以搭配�
 ```
 * ##### 在第二行后面新增一行
 ```
-        [root@localhost ~]$nl /tmp/passwd | sed '2a this is a new line'
-         1	root:x:0:0:root:/root:/bin/bash
-         2	bin:x:1:1:bin:/bin:/sbin/nologin
-       this is a new line
-         3	daemon:x:2:2:daemon:/sbin:/sbin/nologin  
+    [root@localhost ~]$nl /tmp/passwd | sed '2a this is a new line'
+    1	root:x:0:0:root:/root:/bin/bash
+    2	bin:x:1:1:bin:/bin:/sbin/nologin
+    this is a new line
+    3	daemon:x:2:2:daemon:/sbin:/sbin/nologin  
  ```        
 * ##### 在第二行前新增,并且新增2行  
 ``` 
@@ -234,8 +234,8 @@ id:3:initdefault:  do you know id?
 ```
 
 * #####  练习3.删除空白行
-解释:查找模式/^$/ ,d参数表示删除.
-         注意,要查找的内容必须用//括起来
+解释:查找模式/^$/ ,d参数表示删除.注意,要查找的内容必须用//括起来
+
 ```
 [root@localhost ~]$sed '/^$/d' /tmp/test.txt
     hello world
