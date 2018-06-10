@@ -1,3 +1,6 @@
+
+<extoc></extoc>
+
 ## shell脚本模板
 
 ### 介绍

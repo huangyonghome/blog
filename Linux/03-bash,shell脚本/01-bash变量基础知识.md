@@ -1,3 +1,6 @@
+
+<extoc></extoc>
+
 ## bash变量
 ---
 
