@@ -40,10 +40,10 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/lyonyang/blogs"
+            "url": "https://github.com/huangyonghome/blog"
         },
         "editlink": {
-            "base": "https://github.com/lyonyang/blogs/blob/master",
+            "base": "https://github.com/huangyonghome/blog/blob/master",
             "label": "编辑本页"
         },
         "anchor-navigation-ex-toc": {
